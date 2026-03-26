@@ -1,0 +1,13 @@
+{
+  "name": "devtrack",
+  "version": "1.0.0",
+  "description": "Smart Productivity & Activity Tracking System",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && node node_modules/vite/bin/vite.js"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,6 @@
+@echo off
+echo Starting DevTrack Backend...
+start cmd /k "cd backend && node server.js"
+echo Starting DevTrack Frontend...
+start cmd /k "cd frontend && node node_modules\vite\bin\vite.js"
+echo DevTrack is now running! You can open http://localhost:5173
